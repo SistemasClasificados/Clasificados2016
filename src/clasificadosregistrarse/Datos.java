@@ -20,7 +20,7 @@ public class Datos {
     private String contrseña;
     private String repitaContraseña;
     private String marcar;
-    private String hola;
+    private String hola; // modificando......
 
 
     public Datos() {
