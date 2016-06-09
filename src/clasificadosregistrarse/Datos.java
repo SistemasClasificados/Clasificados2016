@@ -6,7 +6,7 @@
 package clasificadosregistrarse;
 
 /**
- *
+ *Datos fue modificado por Josue Martinez
  * @author Marvinn
  */
 public class Datos {
@@ -20,13 +20,21 @@ public class Datos {
     private String contrseña;
     private String repitaContraseña;
     private String marcar;
-    private String hola; // modificando......
-
+    private String hola;
+    //Datos nuevos
+    private int fechaNac;
+    private String departamento;
+    private int numDui;
+    private String cargo;
+    
+    
+    // modificando......
+    
 
     public Datos() {
     }
 
-    public Datos(String nombre, String apellido, String direccion, String edad, String sexo, String correo, String contrseña, String repitaContraseña, String marcar) {
+    public Datos(String nombre, String apellido, String direccion, String edad, String sexo, String correo, String contrseña, String repitaContraseña, String marcar, int fechaNac, String departamento, int numDui, String cargo) {
         this.nombre = nombre;
         this.apellido = apellido;
         this.direccion = direccion;
@@ -36,6 +44,11 @@ public class Datos {
         this.contrseña = contrseña;
         this.repitaContraseña = repitaContraseña;
         this.marcar = marcar;
+        //Datos nuevos
+        this.fechaNac= fechaNac;
+        this.deparatamento= departamento;
+        this numDui= numDui;
+        this cargo= cargo;
     }
 
     public String getNombre() {
