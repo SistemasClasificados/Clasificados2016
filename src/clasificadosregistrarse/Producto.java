@@ -6,7 +6,7 @@
 package clasificadosregistrarse;
 
 /**
- *
+ *Producto a sido modificado por Josue Martinez. 
  * @author Marvinn
  */
 public class Producto {
@@ -17,11 +17,15 @@ public class Producto {
     private String nombre;
     private String telefono;
     private String correo;
+    //Datos nuevos
+    private int fechaNac;
+    private String cargo;
+    private Strin departamento;
 
     public Producto() {
     }
 
-    public Producto(String titulo, String descripcion, String precio, String estado, String nombre, String telefono, String correo) {
+    public Producto(String titulo, String descripcion, String precio, String estado, String nombre, String telefono, String correo, int fechaNac, String cargo, String departamento) {
         this.titulo = titulo;
         this.descripcion = descripcion;
         this.precio = precio;
